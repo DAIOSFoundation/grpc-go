@@ -232,5 +232,5 @@ modules.xml
 # End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,go
 
 ### grpc proto auto gen
-build/
 *.pb.go
+go.mod

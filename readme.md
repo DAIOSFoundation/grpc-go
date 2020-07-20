@@ -22,10 +22,21 @@
 > simple.proto : 어떤 proto 파일을 컴파일 할지 명시
 
 ## 설치
-###  brew install protobuf
-###  protoc --version
-> libprotoc 3.7.1 or 3.6.1
-### go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+``` 
+brew install protobuf
+
+protoc --version
+실행 결과 > libprotoc 3.7.1 or 3.6.1
+
+go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+
+protoc --go_out=plugins=grpc:. proto/simple.proto
+
+go mod init
+
+go run server/grpcServerTest.go
+go run client/grpcClientTest.go
+```
 
 ## 실행
 ### 서버 실행
