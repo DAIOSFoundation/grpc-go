@@ -2,9 +2,9 @@ package main
 
 import (
 	"bufio"
+	pb "github.com/DAIOSFoundation/grpc-go/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "grpc-go/proto"
 	"log"
 	"os"
 )
