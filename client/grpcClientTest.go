@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "grpc/proto"
+	pb "grpc-go/proto"
 	"log"
 	"os"
 )

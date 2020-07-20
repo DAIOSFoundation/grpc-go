@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	pb "github.com/DAIOSFoundation/grpc-go/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "grpc/proto"
 	"log"
 	"net"
 )
